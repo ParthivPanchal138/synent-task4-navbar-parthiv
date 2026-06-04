@@ -25,11 +25,11 @@ const sections     = document.querySelectorAll('section[id]');
 ══════════════════════════════ */
 function openMenu() {
   hamburger.classList.add('open');
-  // hamburger.setAttribute('aria-expanded', 'true');
+  hamburger.setAttribute('aria-expanded', 'true');
   mobileMenu.classList.add('open');
   mobileMenu.setAttribute('aria-hidden', 'false');
   mobileOverlay.classList.add('open');
-  // document.body.style.overflow = 'hidden';
+  document.body.style.overflow = 'hidden';
 }
 
 function closeMenu() {
